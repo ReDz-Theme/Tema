@@ -8,9 +8,9 @@ local Themes = {
     ["Color Stroke"] = Color3.fromRGB(20, 20, 20), -- Cor Das Bordas
     ["Corner Radius"] = UDim.new(0, 5), -- Arrendamento das bordas
     ["Font"] = {
-      Enum.Font.Code,
-      Enum.Font.Code,
-      Enum.Font.Code
+      Enum.Font.GothamBlack,
+      Enum.Font.GothamBold,
+      Enum.Font.GothamMedium
     },
     ["Stroke Thickness"] = 1,
     ["Tween Style"] = Enum.EasingStyle.Quad
