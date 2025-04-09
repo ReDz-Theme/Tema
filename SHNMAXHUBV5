@@ -825,22 +825,22 @@ local Tw = game:GetService("TweenService")
 local Tf = TweenInfo.new(.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out)
 local Tf2 = TweenInfo.new(.2, Enum.EasingStyle.Back, Enum.EasingDirection.Out)
 
-local Patinum = Instance.new("ScreenGui")
+local Shnmaxhub = Instance.new("ScreenGui")
 
-if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("Patinum") then 
-	game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("Patinum"):Destroy()
+if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("Shnmaxhub") then 
+	game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("Shnmaxhub"):Destroy()
 end
 
-Patinum.Parent = game.CoreGui
-Patinum.Name = "SHNMAXHUB BROOKHAVEN RP 🏡"
-Patinum.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Patinum.ResetOnSpawn = false
+Shnmaxhub.Parent = game.CoreGui
+Shnmaxhub.Name = "SHNMAXHUB BROOKHAVEN RP 🏡"
+Shnmaxhub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Shnmaxhub.ResetOnSpawn = false
 
 local CloseUIClick_1 = Instance.new("ImageButton")
 local UICorner_1 = Instance.new("UICorner")
 
 CloseUIClick_1.Name = "CloseUIClick"
-CloseUIClick_1.Parent = Patinum
+CloseUIClick_1.Parent = Shnmaxhub
 CloseUIClick_1.Active = true
 CloseUIClick_1.AnchorPoint = Vector2.new(0.5, 0.5)
 CloseUIClick_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
@@ -898,7 +898,7 @@ function Library:CreateWindow(a)
 	local BackGround = Instance.new("CanvasGroup")
 	local UICorner =  Instance.new("UICorner")
 
-	BackGround.Parent = Patinum
+	BackGround.Parent = Shnmaxhub
 	BackGround.Active = true
 	BackGround.BorderSizePixel = 0
 	BackGround.BackgroundColor3 = Color3.fromRGB(242, 242, 242)
@@ -979,7 +979,7 @@ function Library:CreateWindow(a)
 	local UICorner2 = Instance.new("UICorner")
 	local UIStroke = Instance.new("UIStroke")
 	local UIListLayout = Instance.new("UIListLayout")
-	local PatinumText = Instance.new("TextLabel")
+	local ShnmaxhubText = Instance.new("TextLabel")
 	local Keed1 = Instance.new("Frame")
 	local Bang1 = Instance.new("Frame")
 	local UserIcon = Instance.new("ImageLabel")
@@ -1010,17 +1010,17 @@ function Library:CreateWindow(a)
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 	UIListLayout.FillDirection = Enum.FillDirection.Horizontal
 
-	PatinumText.Parent = Credit
-	PatinumText.BorderSizePixel = 0
-	PatinumText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	PatinumText.TextSize = 11
-	PatinumText.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-	PatinumText.TextColor3 = Color3.fromRGB(0, 0, 0)
-	PatinumText.BackgroundTransparency = 1
-	PatinumText.Size = UDim2.new(0, 63, 0, 17)
-	PatinumText.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	PatinumText.Text = "Patinum"
-	PatinumText.Name = "PatinumText"
+	ShnmaxhubText.Parent = Credit
+	ShnmaxhubText.BorderSizePixel = 0
+	ShnmaxhubText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ShnmaxhubText.TextSize = 11
+	ShnmaxhubText.FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+	ShnmaxhubText.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ShnmaxhubText.BackgroundTransparency = 1
+	ShnmaxhubText.Size = UDim2.new(0, 63, 0, 17)
+	ShnmaxhubText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ShnmaxhubText.Text = "Shnmaxhub"
+	ShnmaxhubText.Name = "ShnmaxhubText"
 
 	Keed1.Parent = Credit
 	Keed1.BorderSizePixel = 0
@@ -2851,7 +2851,7 @@ end
 
 local AUI = {}
 
-AUI[1] = Instance.new("Frame", Patinum)
+AUI[1] = Instance.new("Frame", Shnmaxhub)
 AUI[1]["BorderSizePixel"] = 0
 AUI[1]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
 AUI[1]["AnchorPoint"] = Vector2.new(0.5, 0.5)
