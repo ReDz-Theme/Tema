@@ -832,7 +832,7 @@ if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild("Patinum") 
 end
 
 Patinum.Parent = game.CoreGui
-Patinum.Name = "Patinum"
+Patinum.Name = "SHNMAXHUB BROOKHAVEN RP 🏡"
 Patinum.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Patinum.ResetOnSpawn = false
 
@@ -848,8 +848,8 @@ CloseUIClick_1.BackgroundTransparency = 1
 CloseUIClick_1.BorderColor3 = Color3.fromRGB(0,0,0)
 CloseUIClick_1.BorderSizePixel = 0
 CloseUIClick_1.Position = UDim2.new(0.064, 0,0.232, 0)
-CloseUIClick_1.Size = UDim2.new(0, 30,0, 30)
-CloseUIClick_1.Image = "rbxassetid://16384956178"
+CloseUIClick_1.Size = UDim2.new(0, 40,0, 40)
+CloseUIClick_1.Image = "rbxassetid://80691928603261"
 
 UICorner_1.Parent = CloseUIClick_1
 UICorner_1.CornerRadius = UDim.new(0,9)
