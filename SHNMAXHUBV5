@@ -844,15 +844,15 @@ CloseUIClick_1.Parent = Shnmaxhub
 CloseUIClick_1.Active = true
 CloseUIClick_1.AnchorPoint = Vector2.new(0.5, 0.5)
 CloseUIClick_1.BackgroundColor3 = Color3.fromRGB(255,255,255)
-CloseUIClick_1.BackgroundTransparency = 1
-CloseUIClick_1.BorderColor3 = Color3.fromRGB(0,0,0)
-CloseUIClick_1.BorderSizePixel = 0
+CloseUIClick_1.BackgroundTransparency = 0.2
+CloseUIClick_1.BorderColor3 = Color3.fromRGB(1, 1, 1)
+CloseUIClick_1.BorderSizePixel = 1
 CloseUIClick_1.Position = UDim2.new(0.064, 0,0.232, 0)
-CloseUIClick_1.Size = UDim2.new(0, 40,0, 40)
+CloseUIClick_1.Size = UDim2.new(0, 45,0, 45)
 CloseUIClick_1.Image = "rbxassetid://80691928603261"
 
 UICorner_1.Parent = CloseUIClick_1
-UICorner_1.CornerRadius = UDim.new(0,9)
+UICorner_1.CornerRadius = UDim.new(0,1)
 
 local UserInputService = game:GetService("UserInputService")
 
@@ -901,9 +901,9 @@ function Library:CreateWindow(a)
 	BackGround.Parent = Shnmaxhub
 	BackGround.Active = true
 	BackGround.BorderSizePixel = 0
-	BackGround.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+	BackGround.BackgroundColor3 = Color3.fromRGB(242, 242, 242)
 	BackGround.AnchorPoint = Vector2.new(0.5, 0.5)
-	BackGround.GroupColor3 = Color3.fromRGB(40, 40, 40)
+	BackGround.GroupColor3 = Color3.fromRGB(242, 242, 242)
 	BackGround.Size = UDim2.new(0, 0, 0, 0)
 	BackGround.Position = UDim2.new(0.5, 0, 0.5, 0)
 	BackGround.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -1019,7 +1019,7 @@ function Library:CreateWindow(a)
 	ShnmaxhubText.BackgroundTransparency = 1
 	ShnmaxhubText.Size = UDim2.new(0, 63, 0, 17)
 	ShnmaxhubText.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	ShnmaxhubText.Text = "SHNMAXHUB"
+	ShnmaxhubText.Text = " SHNMAXHUB"
 	ShnmaxhubText.Name = "SHNMAXHUBtext"
 
 	Keed1.Parent = Credit
@@ -1039,17 +1039,6 @@ function Library:CreateWindow(a)
 	Bang1.Name = "Bang1"
 	Bang1.LayoutOrder = 3
 	Bang1.BackgroundTransparency = 1
-
-	UserIcon.Parent = Credit
-	UserIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	UserIcon.ImageTransparency = 0.5
-	UserIcon.ImageColor3 = Color3.fromRGB(0, 0, 0)
-	UserIcon.Image = "rbxassetid://2790547157"
-	UserIcon.Size = UDim2.new(0, 20, 0, 20)
-	UserIcon.BackgroundTransparency = 1
-	UserIcon.LayoutOrder = 4
-	UserIcon.Name = "UserIcon"
-	UserIcon.Position = UDim2.new(0, 0, 0.68605, 0)
 
 	CreditText.Parent = Credit
 	CreditText.BorderSizePixel = 0
