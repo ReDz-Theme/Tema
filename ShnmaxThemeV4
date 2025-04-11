@@ -1,7 +1,7 @@
 local Themes = {
   ["Default"] = {
     ["Color Hub 1"] = Color3.fromRGB(1, 1, 1), -- Background 
-    ["Color Hub 2"] = Color3.fromRGB(235, 235, 235),  -- Interface
+    ["Color Hub 2"] = Color3.fromRGB(20, 20, 20),  -- Interface
     ["Color Theme"] = Color3.fromRGB(176, 7, 7),  -- Tema Da Interface 
     ["Color Text"] = Color3.fromRGB(176, 7, 7), -- Cor do Texto
     ["Color Dark Text"] = Color3.fromRGB(107, 3, 3), -- Cor Das Sections
